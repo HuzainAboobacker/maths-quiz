@@ -1,6 +1,66 @@
 *{
-          margin: 0;
-          box-sizing: border-box;
-      }
-      /* Your code goes here */
-      
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Your code goes here */
+.background{
+
+background: url("../maths-quiz/assets/icons/unsplash_0XkLAIrknco.svg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(255, 255, 255);
+
+}  
+.transparent-box{
+position:absolute;
+top:0px;
+right:0px;
+bottom:0px;
+left:0px;
+height: 80%;
+width: 70%px;
+border-radius: 10px;
+margin-left: 150px;
+margin-top: 100px;
+margin-right: 100px;
+background-color: rgb(21, 74, 248, 0.6);
+
+} 
+.content h1{
+
+text-align: center;
+margin-top: 30px;   
+}
+.content img{
+float: right; 
+margin-right: 20px;
+}
+.content table{
+margin-top: 50px;
+margin-left: 100px;
+
+}
+.content table td{
+height: 65px;
+}
+.content input{
+border: none;
+background: transparent;
+border-bottom: white 2px solid;
+height: 55px;
+color: white;
+
+}
+.content #button{
+width: 100px;
+height: 40px;
+margin-left: 580px;
+border: 0px solid #d6d6d6;
+border-radius: 10px;
+text-align: center;
+background: rgb(255, 255, 255);
+color: black;
+}
