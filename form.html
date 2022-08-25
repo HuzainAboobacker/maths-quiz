@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function updatesum() {
+    document.input.total.value = (document.input.time.value -0) + (document.input.cost.value -0);
+}
+</script>
+</head>
+<body>
+
+    <form name="input" action="#" method="get" onsubmit="return false;">
+Timespent
+Timespent:<input type="text" name="time" value=" ">
+Cost:<input type="text" name="cost" value=" ">
+Totalcost:<input type="text" name="total" value=" ">
+<input type="submit" value="Submit" onclick=updatesum()>
+</form> 
+
+</body>
+</html>

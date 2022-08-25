@@ -64,3 +64,4 @@ text-align: center;
 background: rgb(255, 255, 255);
 color: black;
 }
+#thumb1,#thumb2,#thumb11,#thumb22,#thumb111,#thumb222,#thumb1111,#thumb2222,#thumb11111,#thumb22222  { visibility: hidden; }
